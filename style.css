@@ -87,10 +87,13 @@ a{text-decoration: none;}
 	font-size: 20px;
 	margin: 20px;
 }
-p {
-	font-size: 20px;
-	margin: 10px;
-	font-family: 'Gill Sans';/* , 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+.welcome-text{
+	font-size: 18px;
+	margin: 10;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: 'Gill Sans MT';/* , 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+	text-align: justify;
 }
 /* ici debut button */
 @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
