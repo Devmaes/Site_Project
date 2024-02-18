@@ -7,72 +7,303 @@
 <title>Home</title>
 </head>
 <body>
+<div class="navbar-top">
+  <div class="logo_area">
+    <img id="logo" src="picture (1).jpg" height="100px" width="130px">
+  </div>
+  <p class="test_top"> Institut Universitaire des sciences<br> des Technologies et de l'Ethique  </p>
+</div>  
 
-<div class="navbar">
-  <a href="#home">Home</a>
-  <div class="subnav">
-    <button class="subnavbtn">About Us <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#Our History">Our History</a>
-      <a href="#Organigram">Organigram</a>
-      <a href="#Director speakings">Director speakings</a>
-      <a href="#Infrastructures">Infrastructures</a>
+<div id="navbar">
+  <div class="navbar">
+    <a class="active" href="#home">Home <i class="fa fa-university"></i></a>
+    <div class="subnav">
+      <button class="subnavbtn">About Us <i class="fa fa-rss-square"></i></button>
+        <div class="subnav-content">
+          <a href="#Our History">Our History</a>
+          <a href="#Organigram">Organigram</a>
+          <a href="#Director speakings">Director speakings</a>
+          <a href="#Infrastructures">Infrastructures</a>
+        </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Staff<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#Administration">Administration</a>
+          <a href="#Teachers">Teachers</a>
+        </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Departments<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#department 1">department  1</a>
+          <a href="#department 2">department  2</a>
+          <a href="#department 3">department  3</a>
+          <a href="#department 4">department  4</a>
+        </div>
     </div>
-  </div> 
-  <div class="subnav">
-    <button class="subnavbtn">Staff<i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#Administration">Administration</a>
-      <a href="#Teachers">Teachers</a>
+    <div class="subnav">
+      <button class="subnavbtn">Formation<i class="fa fa-graduation-cap"></i></button>
+        <div class="subnav-content">
+          <a href="#cycle">cycle</a>
+          <a href="#level">level</a>
+        </div>
     </div>
-  </div> 
-  <div class="subnav">
-    <button class="subnavbtn">Departments<i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#department 1">department  1</a>
-      <a href="#department 2">department  2</a>
-      <a href="#department 3">department  3</a>
-      <a href="#department 4">department  4</a>
+    <div class="subnav">
+      <button class="subnavbtn">Admission<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#conditions">conditions</a>
+          <a href="#Procedure">Procedure</a>
+          <a href="#Diploma">Diploma</a>
+          <a href="#Pre-inscription">Pre-inscription</a>
+        </div>
     </div>
-  </div>
-  <div class="subnav">
-    <button class="subnavbtn">Formation<i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#cycle">cycle</a>
-      <a href="#level">level</a>
+    <div class="subnav">
+      <button class="subnavbtn">Activity<i class="fa fa-calendar"></i></button>
+      <div class="subnav-content">
+        <a href="#conditions">Agenda</a>
+        <a href="#Procedure">Stories</a>
+        <a href="#concours">Concours<i class="fa fa-group"></i></a>
+      </div>
     </div>
-  </div>
-  <div class="subnav">
-    <button class="subnavbtn">Admission<i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#conditions">conditions</a>
-      <a href="#Procedure">Procedure</a>
-      <a href="#Diploma">Diploma</a>
-      <a href="#Pre-inscription">Pre-inscription</a>
-    </div>
-  </div>
-  <div class="subnav">
-    <button class="subnavbtn">Activity<i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#conditions">Agenda</a>
-      <a href="#Procedure">Stories</a>
-    </div>
-  </div>
-  <a href="#Actuality">Actuality</a>
-  <a href="#Teacher area">Teacher area</a>
-  <a href="#Student area">Student area</a>
-  <a href="#contact">Contact</a>
-  <a href="#concours">Concours</a>
+    <a href="#Actuality">Actuality <i class="fa fa-globe"></i></a>
+    <button text-margin="50px" onclick="document.getElementById('id02').style.display='block'" style="width:auto;height: 30px;">
+      Teacher area
+      <i class="fa fa-user-secret"></i>
+    </button>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;height: 30px;">
+      Student area
+      <i class="fa fa-user-circle"></i>
+    </button>
+    <a href="#contact">Contact<i class="fa fa-phone-square"></i></a> 
 </div>
 
-<div style="padding:0 16px">
-  <h1>Welcome to our school</h1>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-     Deserunt quam id maxime officia excepturi dolorem, 
-     fuga quia aspernatur temporibus dolor velit, illum dicta, cumque corrupti at. 
-     Nobis animi eaque molestiae.</p>
+<!-- <form>
+  <i class="fa fa-search"></i><input class="searchBar" type="text" name="search" placeholder="Any ReSearch ?">
+</form> -->
+<!-- ma barre de ReSearch -->
 </div>
 
+<div class="content">
+  
+  <div style="padding:0 16px">
+
+    <div id="id01" class="modal">
+  
+      <form class="modal-content animate" action="https://www.w3schools.com/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="" alt="Avatar" class="avatar"> <!-- ici pour le profil etudiant-->
+        </div>
+    
+        <div class="container">
+          <label for="uname"><b>Matricule*</b></label>
+          <input class="inputform" type="text" placeholder="Enter your Matricule" name="uname" required>
+    
+          <label for="psw"><b>Student code*</b></label>
+          <input type="password" placeholder="Enter Code" name="psw" required>
+            
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Don't have <a href="Student Area/register_form_page.html">account?</a></span>
+        </div>
+      </form>
+    </div>
+    <div id="id02" class="modal">
+  
+      <form class="modal-content animate" action="https://www.w3schools.com/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="" alt="Avatar" class="avatar"><!-- photo icone teach-->
+        </div>
+    
+        <div class="container">
+          <label for="uname"><b>Teacher's name*</b></label>
+          <input class="inputform" type="text" placeholder="Enter Username" name="uname" required>
+          <label for="psw"><b>Teacher's code*</b></label>
+          <input type="password" placeholder="ex: Teach22" name="psw" required>
+            
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Don't have <a href="Student Area/register_form_page_Teachers.html">account?</a></span>
+        </div>
+      </form>
+    </div>
+
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    var modal2 = document.getElementById('id02');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        if(event.target == modal2){
+          modal2.style.display = "none";
+        }
+    }
+    </script>
+  </div>
+  <h2>welcome to IUSTE</h2>
+<p>OUR SCHOOL </p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="slide (1).jpg" style="width:100%">
+  <div class="text">caption one</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="slide (2).jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="slide (3).jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+ <h2>Responsive Testimonials</h2>
+ <p>Some ancient student.</p>
+ 
+ <div class="container">
+   <img src="" alt="Avatar" style="width:90px">
+   <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+   <p>John Doe saved us from a web disaster.</p>
+ </div>
+ 
+ <div class="container">
+   <img src="" alt="Avatar" style="width:90px">
+   <p><span>Rebecca Flex.</span> CEO at Company.</p>
+   <p>No one is better than John Doe.</p>
+ </div>
+
+
+ <h2>Responsive Section Counter</h2>
+<p>Resize the browser window to see the effect.</p>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <h3>11+</h3>
+      <p>Partners</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-check"></i></p>
+      <h3>55+</h3>
+      <p>Projects</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-smile-o"></i></p>
+      <h3>100+</h3>
+      <p>Happy Clients</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-coffee"></i></p>
+      <h3>100+</h3>
+      <p>Meetings</p>
+    </div>
+  </div>
+</div>
 
 </body>
+<footer>
+  <ul class="social-icon">
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+  </ul>
+  <div class="navbar-top">
+    
+    <div class="logo_area">
+      <h1>Welcome to IUSTE it's our school</h1>
+      <!-- <img id="logo" src="media\images\pic1 (1).jpg"> -->
+    </div>
+    </div>  
+    
+</footer>
 </html>

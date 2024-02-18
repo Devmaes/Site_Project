@@ -1,9 +1,10 @@
 *{margin: 0;padding: 0; box-sizing: border-box;}
 a{text-decoration: none;}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 .container{
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient( rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url(media/images/pic,jpg);
+	background: linear-gradient( rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url(bg.jpg);/*ajout de l'image en fond ici*/
 	background-size: cover;
 	background-position: center;
 }
@@ -20,11 +21,6 @@ a{text-decoration: none;}
 	width: 10%;
 	text-align: left;
 }
-.logo_area a{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
 .logo_area a img{
  width: 100px;
 }
@@ -35,7 +31,7 @@ a{text-decoration: none;}
 	margin-left: 9px ;
 }
 .menu_area{
-	width: 90%;
+	width: 100%;
 }
 .menu_area ul{
 	list-style: none;
@@ -197,3 +193,4 @@ path.two {
     }
 }
 /* fin button */
+/* debut du footer */

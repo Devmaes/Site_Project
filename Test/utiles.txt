@@ -1,1 +1,3 @@
 https://devdevout.com/css/css-footers  ___mes footer__
+file:///D:/W3school/www.w3schools.com/howto/howto_website.html background changes every 10s
+file:///D:/W3school/www.w3schools.com/howto/howto_js_typewriter.html  chat
