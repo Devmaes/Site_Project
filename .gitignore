@@ -1,0 +1,10 @@
+.env
+/vendor/
+/node_modules/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+/iuste_private/
+*.log
+.DS_Store
+
