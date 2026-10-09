@@ -19,3 +19,6 @@ jobs:
       - name: Verify JS syntax
         run: node --check public/assets/site.js
 
+
+      - name: Verify root homepage navigation and content
+        run: python3 tests/test_visible_homepage.py
