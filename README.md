@@ -1,3 +1,15 @@
+# Site_Project — site IUSTE moderne et portail académique
+
+**L’accueil a réellement changé : ouvrez [index.html](index.html) à la racine.** Le lien historique [Home/Home_page.html](Home/Home_page.html) redirige maintenant vers ce nouvel accueil.
+
+Le site vitrine comprend navigation responsive, recherche et filtre de formations, diaporama avec les photographies déjà présentes dans le dépôt, FAQ dépliable et **simulation pédagogique interactive de publication de notes**.
+
+Pour **la vraie connexion PHP**, la gestion de comptes et la publication de résultats fictifs en base SQLite, voir [le guide de démarrage](docs/OUVRIR_LE_SITE.md) et l’application dans \`public/\`.
+
+> Projet personnel indépendant, non officiel, non connecté au SI de l’université. Ne pas y enregistrer de vraies notes ou identifiants avant autorisation de l’établissement et audit. L’origine et les droits des photos doivent être validés avant publication institutionnelle.
+
+---
+
 # IUSTE · Campus & Portail académique (prototype indépendant)
 
 **Projet de refonte de `Devmaes/Site_Project`** : site vitrine responsive, animé et accessible, plus authentification PHP / SQLite et publication sécurisée de notes fictives. **Developed by Devmaes.**
